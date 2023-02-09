@@ -23,7 +23,9 @@ This contains information and 3d models of the robot we are about to build.
    * Shaft size : 10mm
  
  3. [Battery: 6-21S 100A UART BT, Li-ion. ](https://www.ebay.com/itm/255827116760?var=555764513208) 
-      * [small blog on the battery components](http://volksrobot.blogspot.com/2022/11/12s2p-bill-of-material.html) 
+   * 13 Cells (11 in series, 2 in parrallel)
+   * 5.0 Ah
+   * [small blog on the battery components](http://volksrobot.blogspot.com/2022/11/12s2p-bill-of-material.html) 
  4. [Battery management system: JBD Smart BMS 6~21S](https://jiabaidabms.com/products/jbd-smart-bms-4-22s-8s-17s-20s-21s-100a-wireless-with-uart-rs485-board-for-lifepo4-battery-li-ion)
       * a
    
