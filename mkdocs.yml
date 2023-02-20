@@ -16,4 +16,5 @@ repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 nav:
   - Introduction: "introduction.md"
   - Robot Components: "robot-components/introduction-to-robot-components.md"
-  - Robot Model: "robot-model/README.md"
+  - Robot Model: "robot-model/robot-model.md"
+  - Assembly: "assembly/assembly-steps.md"
