@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: How To Make A Mobile Robot
+theme: readthedocs
+
+nav:
+    - About: 'about.md'
+    - Robot Components: 'robot-components/introduction-to-robot-components.md'
+    - Robot Model: 'robot-model/README.md'
