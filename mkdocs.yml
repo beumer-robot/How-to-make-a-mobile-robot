@@ -18,3 +18,5 @@ nav:
   - Robot Components: "robot-components/introduction-to-robot-components.md"
   - Robot Model: "robot-model/robot-model.md"
   - Assembly: "assembly/assembly-steps.md"
+  - Nvidia Jetson AGX Orin: "nvidia-jetson-agx-orin.md"
+  - VESC: vesc.md
