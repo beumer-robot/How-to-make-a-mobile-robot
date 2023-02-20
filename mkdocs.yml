@@ -1,7 +1,19 @@
 site_name: How To Make A Mobile Robot
-theme: readthedocs
+site_description: TODO
+site_author: "TODO"
+# theme: readthedocs
+theme: litera
+# theme:
+#   name: "rtd-dropdown"
+#   collapse_by_default: false
+#   highlightjs: true
+#   hljs_languages:
+#     - yaml
+#     - python
+
+repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 
 nav:
-    - About: 'about.md'
-    - Robot Components: 'robot-components/introduction-to-robot-components.md'
-    - Robot Model: 'robot-model/README.md'
+  - About: "about.md"
+  - Robot Components: "robot-components/introduction-to-robot-components.md"
+  - Robot Model: "robot-model/README.md"
