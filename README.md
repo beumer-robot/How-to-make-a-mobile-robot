@@ -20,3 +20,4 @@ Information on the CAD model used in this project can be found in the [Robot Mod
    4. With [screws]() attach the board as flooring to the frame.
 2. **Drivetrain**
    1. Follow instructions from [Flipsky]() on how to assemble the drivetrain.
+   2.
