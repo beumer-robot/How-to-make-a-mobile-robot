@@ -1,7 +1,8 @@
 site_name: How To Make A Mobile Robot
 site_description: TODO
 site_author: "TODO"
-theme: readthedocs
+theme: material
+# theme: readthedocs
 #theme: litera
 # theme:
 #   name: "rtd-dropdown"
