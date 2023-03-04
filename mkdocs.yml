@@ -15,8 +15,8 @@ repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 
 nav:
   - Introduction: "introduction.md"
-  - Robot Components: "robot-components/introduction-to-robot-components.md"
-  - Robot Model: "robot-model/robot-model.md"
+  - Components: "components/components.md"
+  - Model: "model/model.md"
   - Assembly: "assembly/assembly-steps.md"
   - Nvidia Jetson AGX Orin: "nvidia-jetson-agx-orin.md"
   - VESC: vesc.md
