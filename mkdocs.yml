@@ -15,12 +15,11 @@ theme: material
 repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 
 nav:
-  - Introduction: introduction.md
+  - build/index.md
   - Building the Robot:
-    - build/index.md
-    - Components: components/components.md
-    - Model: model/model.md
-    - Assembly: assembly/assembly-steps.md
+    - Components: build/components/components.md
+    - Model: build/model/model.md
+    - Assembly: build/assembly/assembly-steps.md
   - Hardware Setup:
     - Nvidia Jetson AGX Orin: hardware/nvidia-jetson-agx-orin.md
     - VESC: hardware/vesc.md
