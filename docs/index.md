@@ -1,12 +1,3 @@
 # Welcome to How to Make a Mobile Robot
 
-```python
-def fib(a: int, b: int):
-    return fib(a + b, b)
-```
-
-| eerg | erger |
-| ---- | ----- |
-| wfwe | 1243  |
-
-![Battery](/img/battery1.jpg)
+This is a blog like introduction to the steps and component in making a robot. It is made for us as a reminder of all the processes and for everyone who wants to get into building your own mobile robot.

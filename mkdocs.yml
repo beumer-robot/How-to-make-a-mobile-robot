@@ -15,8 +15,8 @@ theme: material
 repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 
 nav:
-  - build/index.md
   - Building the Robot:
+    - Introduction: build/index.md
     - Components: build/components/components.md
     - Model: build/model/model.md
     - Assembly: build/assembly/assembly-steps.md
