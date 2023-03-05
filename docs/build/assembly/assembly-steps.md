@@ -25,7 +25,7 @@ Listed below are the steps taken to assemble the robot from scratch. Do note tha
 ![Drivetrain assembly completed](../../img/build/drivetrain1.jpg)
 
 ---
-# Casters
+## Casters
 1. In each corner of the of the robot body, a caster wheel can be attached. *We used 2 screws and washers for each caster. Both screws in a spot where they hit the lath frame, diagonally across from each other.*
 ![Casters attached](../../img/build/casters1.jpg)
 
@@ -46,7 +46,7 @@ With the custom designed [3D printed parts](), we can attach the drivetrain to t
 | ![](../../img/build/3d-print1.2.jpg) | ![](../../img/build/3d-print1.3.jpg) |
 
 ---
-# Attaching the Drivetrain
+## Attaching the Drivetrain
 1. Attach the drivetrain assembly onto the mount with the 6 M5 bolts and lock nuts that came with the [Flipsky truck](../components/components.md).
 2. At this point you can loosen the carriage slightly from the rails, and adjust the height of the wheels to ensure proper grip.
 
