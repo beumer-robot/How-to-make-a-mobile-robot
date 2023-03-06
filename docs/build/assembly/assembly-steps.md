@@ -26,7 +26,7 @@ Listed below are the steps taken to assemble the robot from scratch. Do note tha
 
 ---
 ## Casters
-1. In each corner of the of the robot body, a caster wheel can be attached. *We used 2 screws and washers for each caster. Both screws in a spot where they hit the lath frame, diagonally across from each other.*
+1. In each corner of the of the robot body, a caster wheel can be attached. *We used 2 screws and washers for each caster. Both screws in a spot where they hit the frame, diagonally across from each other.*
 ![Casters attached](../../img/build/casters1.jpg)
 
 ---
@@ -36,9 +36,9 @@ With the custom designed [3D printed parts](), we can attach the drivetrain to t
 1. The 3 pieces can be printed in PLA with a layer height of 0.2mm, 4 perimeters, and 25% infill to ensure they will be strong enough. ***We also used organic supports, introduced in PrusaSlicer 2.6, which were much easier to remove and resulted in a cleaner print.** (You might be able to find more optimal settings, however these settings were used on a Prusa i3 MK3S and worked for us.)*
 2. The prints should now fit together somewhat loosely as shown below.
 ![3D printed parts](../../img/build/3d-print1.jpg)
-3. By mock-fitting the mount assembly to the lath stiffeners, you can now make sure the spacing is correct, and fasten the stiffeners to the flooring with a couple screws from below.
+3. By mock-fitting the mount assembly to the frame stiffeners, you can now make sure the spacing is correct, and fasten the stiffeners to the flooring with a couple screws from below.
 ![Mock-fitting of the mount](../../img/build/3d-print2.jpg)
-4. Fasten the rail pieces to the lath stiffeners on the inside of the frame with 4 screws each. *Make sure they are in the middle of the frame.*
+4. Fasten the rail pieces to the frame stiffeners on the inside of the frame with 4 screws each. *Make sure they are in the middle of the frame.*
 5. The carriage piece can now me fastened to the rails with 4 M5 bolts and lock nuts. *The rails are designed such that the M5 nuts with fit into the channel without rotating.*
 
 | ![](../../img/build/3d-print1.1.jpg) | ![](../../img/build/3d-print1.4.jpg) |
@@ -48,6 +48,7 @@ With the custom designed [3D printed parts](), we can attach the drivetrain to t
 ---
 ## Attaching the Drivetrain
 1. Attach the drivetrain assembly onto the mount with the 6 M5 bolts and lock nuts that came with the [Flipsky truck](../components/components.md).
-2. At this point you can loosen the carriage slightly from the rails, and adjust the height of the wheels to ensure proper grip.
+![Mounting the drivetrain](../../img/build/drivetrain-mounting-1.jpg)
+3. At this point you can loosen the carriage slightly from the rails, and adjust the height of the wheels to ensure proper grip.
 
 <!-- TODO: Add picture of assembly at this point -->
