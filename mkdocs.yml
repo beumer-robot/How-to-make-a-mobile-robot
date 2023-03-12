@@ -12,6 +12,9 @@ theme: material
 #     - yaml
 #     - python
 
+# The site is hosted as a static site on GitHub Pages
+site_url: https://multi-agent-robotics.github.io/How-to-make-a-mobile-robot/
+# The repo is hosted on GitHub
 repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 
 nav:
@@ -23,3 +26,5 @@ nav:
   - Hardware Setup:
     - Nvidia Jetson AGX Orin: hardware/nvidia-jetson-agx-orin.md
     - VESC: hardware/vesc.md
+  - Software Setup:
+    - ORBSLAM3: software/orbslam3.md

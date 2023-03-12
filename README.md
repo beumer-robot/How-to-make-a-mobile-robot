@@ -1,6 +1,19 @@
 # How to Make a Mobile Robot
 This is a blog like introduction to the steps and component in making a robot. It is made for us as a reminder of all the processes and for everyone who wants to get into building your own mobile robot.
 
+This blog is written using [mkdocs](https://www.mkdocs.org/).
+
+To install `mkdocs` and the theme used run:
+```sh
+python3 -m pip install -r requirements.txt
+```
+
+To run a local webserver serving the statically generated html run:
+```sh
+mkdocs serve
+```
+The webserver will listen on `localhost:8000`
+
 **Table of contents:**
 1. [Robot Components](RobotComponents/IntroductionToRobotComponents.md)
 2. [Robot Model](RobotModel/README.md)
