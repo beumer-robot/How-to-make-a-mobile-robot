@@ -1,6 +1,6 @@
 # ORBSLAM3 ROS2 Wrapper
 
-[orbslam3](https://github.com/UZ-SLAMLab/ORB_SLAM3) does come with some support for integrating with ROS, but not with ROS2. We have created a ROS2 wrapper for the library. The wrapper is available on [Github](https://github.com/Multi-Agent-Robotics/ORB_SLAM3_ROS2), and is forked from Github user [zang09](https://github.com/zang09) repository [ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2). Our fork has been modified to work with the [Nvidia Jetson AGX Orin Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/). The wrapper has been tested on Ubuntu 20.04 and ROS2 Foxy Fitzroy.
+[Orbslam3](https://github.com/UZ-SLAMLab/ORB_SLAM3) does come with some support for integrating with ROS, but not with ROS2. We have created a ROS2 wrapper for the library. The wrapper is available on [Github](https://github.com/Multi-Agent-Robotics/ORB_SLAM3_ROS2), and is forked from Github user [zang09](https://github.com/zang09) repository [ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2). Our fork has been modified to work with the [Nvidia Jetson AGX Orin Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/). The wrapper has been tested on Ubuntu 20.04 and ROS2 Foxy Fitzroy.
 
 ## Requirements
 

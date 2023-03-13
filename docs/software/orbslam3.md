@@ -2,9 +2,7 @@
 
 <!-- https://arxiv.org/abs/2007.11898 -->
 
-
-
-[orbslam3](https://github.com/UZ-SLAMLab/ORB_SLAM3/tree/4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4) is an open source library for Visual-Inertial
+[Orbslam3](https://github.com/UZ-SLAMLab/ORB_SLAM3/tree/4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4) is an open source library for Visual-Inertial
 [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) developed by Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, José M. M. Montiel, Juan D. Tardos. at the [Robotics, Perception and Real Time Group](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) at the [University of Zaragoza](https://www.unizar.es/university-zaragoza) in Spain. 
 
 ## Citation
