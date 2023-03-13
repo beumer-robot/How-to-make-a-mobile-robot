@@ -1,5 +1,5 @@
 # Components
-This page lists and descibes all components used in the build.
+This page lists and describes all components used in the build.
 
 ## Drivetrain
 **Wheels:** [**All Terrain Honeycomb Wheels with pulleys and belts**](https://flipsky.net/collections/stepper-motor/products/6-atm-150x50-all-terrain-honey-comb-wheels)
