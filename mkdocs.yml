@@ -30,3 +30,5 @@ nav:
     - ORBSLAM3: software/orbslam3.md
     - ORBSLAM3 ROS2 Wrapper: software/orbslam3-ros2-wrapper.md
     - ZED SDK ROS2 Wrapper: software/zed-sdk-ros2-wrapper.md
+  - Testing:
+    - testing/controller.md
