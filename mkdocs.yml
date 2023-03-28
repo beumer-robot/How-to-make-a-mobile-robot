@@ -20,9 +20,9 @@ repo_url: https://github.com/Multi-Agent-Robotics/How-to-make-a-mobile-robot
 nav:
   - Building the Robot:
     - Introduction: build/index.md
-    - Components: build/components/components.md
-    - Model: build/model/model.md
-    - Assembly: build/assembly/assembly-steps.md
+    - Components: build/components.md
+    - Model: build/model.md
+    - Assembly: build/assembly-steps.md
   - Hardware Setup:
     - Nvidia Jetson AGX Orin: hardware/nvidia-jetson-agx-orin.md
     - VESC: hardware/vesc.md
@@ -30,5 +30,6 @@ nav:
     - ORBSLAM3: software/orbslam3.md
     - ORBSLAM3 ROS2 Wrapper: software/orbslam3-ros2-wrapper.md
     - ZED SDK ROS2 Wrapper: software/zed-sdk-ros2-wrapper.md
+    - software/differential-drive.md
   - Testing:
     - testing/controller.md
