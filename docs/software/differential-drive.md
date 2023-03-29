@@ -5,5 +5,4 @@ This involves a conversion from `Twist.linear.x` and `Twist.angular.z` to left a
 
 Found the following ROS packages that attempt this already
 
-- [`diff_drive_controller`](http://wiki.ros.org/diff_drive_controller)
-- [`differential_drive`](http://wiki.ros.org/differential_drive)
+- [`ros_controls`](https://github.com/ros-controls)
