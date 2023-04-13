@@ -27,10 +27,16 @@ udevadm info -a -p $(udevadm info -q path -n /dev/ttyACM0)
 Create a new file in `/etc/udev/rules.d` called `49-vesc-left-right.rules` and add the following lines to it:
 
 ```rules
-SUBSYSTEMS=="usb", KERNELS=="1-4.1:1.0", SYMLINK+="vesc-right"
-SUBSYSTEMS=="usb", KERNELS=="1-2:1.0",   SYMLINK+="vesc-left"
+SUBSYSTEMS=="usb", KERNELS=="1-4.1:1.0", OWNER="<user>", GROUP="<user>", MODE="0666", SYMLINK+="vesc-right"
+SUBSYSTEMS=="usb", KERNELS=="1-2:1.0",   OWNER="<user>", GROUP="<user>", MODE="0666", SYMLINK+="vesc-left"
 ```
 **NOTE** we use the `KERNELS` parameter that we found in the previous step to create the symbolic links.
+
+`<user>` is the name of the user that will be running the ROS nodes. This is the user that will be given ownership of the device files. You can find the name of the user by running the following command:
+
+```sh
+whoami
+```
 
 Each rule will be checked in order. The first rule will create a symbolic link called `vesc-right` in `/dev` that points to the device file for the VESC board that is connected to the USB port with the ID `1-4.1:1.0`. The second rule will create a symbolic link called `vesc-left` in `/dev` that points to the device file for the VESC board that is connected to the USB port with the ID `1-2:1.0`.
 
