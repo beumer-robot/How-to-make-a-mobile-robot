@@ -1,0 +1,76 @@
+
+# direction: right
+
+title: ARC Architecture {
+  near: top-center
+  shape: text
+  style: {
+    font-size: 29
+    bold: true
+    underline: false
+  }
+}
+
+# explanation: |md
+#   # I can do headers
+
+#   - lists
+#   - lists
+
+#   And other normal markdown stuff
+# |
+
+# positional controller linear.x angular.z
+#
+
+ttd: twist_to_diff
+
+ds4: ds4_to_twist
+
+pos_controller -> ds4: ""
+
+ds4 -> ttd: "/cmd_vel"
+
+left wheel: {
+  acceleration_controller
+  vesc_driver_left
+}
+
+left wheel.acceleration_controller -> left wheel.vesc_driver_left: "command (eRPM)"
+left wheel.vesc_driver_left -> left wheel.acceleration_controller: motor pos {
+  style: {
+    stroke: red
+    stroke-dash: 5
+  }
+}
+
+right wheel: {
+  acceleration_controller
+  vesc_driver_right
+}
+
+right wheel.acceleration_controller -> right wheel.vesc_driver_right: "command (eRPM)"
+right wheel.vesc_driver_right -> right wheel.acceleration_controller: motor pos {
+  style: {
+    stroke: red
+    stroke-dash: 5
+  }
+}
+
+ttd -> left wheel.acceleration_controller: |md
+  ```
+    - /motor_left
+    - /motor
+    - /commands
+    - /speed
+  ```
+|
+
+ttd -> right wheel.acceleration_controller: |md
+  ```
+    - /motor_right
+    - /motor
+    - /commands
+    - /speed
+  ```
+|
