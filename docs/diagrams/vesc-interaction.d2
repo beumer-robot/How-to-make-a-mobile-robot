@@ -1,4 +1,3 @@
-
 # direction: right
 
 title: ARC Architecture {
@@ -27,50 +26,57 @@ ttd: twist_to_diff
 
 ds4: ds4_to_twist
 
-pos_controller -> ds4: ""
+pos_controller -> ttd: "/cmd_vel"
 
 ds4 -> ttd: "/cmd_vel"
 
-left wheel: {
-  acceleration_controller
-  vesc_driver_left
+lw: left wheel {
+  ac: accerelation_controller
+  vesc: vesc_driver
+  command_topic: |md
+    /motor_left<br/>
+    /motor<br/>
+    /commands<br/>
+    /speed<br/>
+  |
+  pos_topic: |md
+    /motor_left<br/>
+    /sensors<br/>
+    /core<br/>
+  |
 }
 
-left wheel.acceleration_controller -> left wheel.vesc_driver_left: "command (eRPM)"
-left wheel.vesc_driver_left -> left wheel.acceleration_controller: motor pos {
+lw.ac -- lw.command_topic -> lw.vesc
+lw.vesc -- lw.pos_topic -> lw.ac: {
   style: {
     stroke: red
     stroke-dash: 5
   }
 }
 
-right wheel: {
-  acceleration_controller
-  vesc_driver_right
+rw: right wheel {
+  ac: acceleration_controller
+  vesc: vesc_driver
+  command_topic: |md
+    /motor_left<br/>
+    /motor<br/>
+    /commands<br/>
+    /speed<br/>
+  |
+  pos_topic: |md
+    /motor_left<br/>
+    /sensors<br/>
+    /core<br/>
+  |
 }
 
-right wheel.acceleration_controller -> right wheel.vesc_driver_right: "command (eRPM)"
-right wheel.vesc_driver_right -> right wheel.acceleration_controller: motor pos {
+rw.ac -- rw.command_topic -> rw.vesc
+rw.vesc -- rw.pos_topic -> rw.ac: {
   style: {
     stroke: red
     stroke-dash: 5
   }
 }
 
-ttd -> left wheel.acceleration_controller: |md
-  ```
-    - /motor_left
-    - /motor
-    - /commands
-    - /speed
-  ```
-|
-
-ttd -> right wheel.acceleration_controller: |md
-  ```
-    - /motor_right
-    - /motor
-    - /commands
-    - /speed
-  ```
-|
+ttd -- command_topic_l -> lw.ac
+ttd -- command_topic_r -> rw.ac
