@@ -1,0 +1,46 @@
+#  ORB features are computed in the operator() overload in the OrbExtractor class
+
+# OrbExtractor.cc:1086
+#
+# _keypoints 
+
+# OrbExtractor.h:57
+# // Compute the ORB features and descriptors on an image.
+# // ORB are dispersed on the image using an octree.
+# // Mask is ignored in the current implementation.
+# int operator()( cv::InputArray _image, cv::InputArray _mask,
+#                 std::vector<cv::KeyPoint>& _keypoints,
+#                 cv::OutputArray _descriptors, std::vector<int> &vLappingArea);
+
+# Frame::ExtractORB
+
+System: {
+  shape: class
+  get_tracker(): "Tracking*"
+}
+
+Tracking: {
+  shape: class
+
+  mCurrentFrame: Frame
+  mLastFrame: Frame
+}
+
+System -> Tracking: "get_tracker()"
+
+Frame constructor: "Frame::Frame()"
+
+Tracking -> Frame constructor
+
+ExtractORB left: "Frame::ExtractORB (left image)"
+ExtractORB right: "Frame::ExtractORB (right image)"
+
+Frame constructor -> ExtractORB left: "Frame.cc:122"
+ExtractORB left -> mpORBextractorLeft: "Frame.cc:422"
+Frame constructor -> ExtractORB right: "Frame.cc:123"
+ExtractORB right -> mpORBextractorRight: "Frame.cc:424"
+mpORBextractorRight
+
+ExtractORB: "void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)"
+# extract-orb -> OrbExtractor
+OrbExtractor operator: "OrbExtractor::operator()"
