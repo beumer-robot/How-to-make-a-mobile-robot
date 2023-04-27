@@ -56,13 +56,12 @@ This page lists and describes all components used in the build.
 ---
 
 ## 3D Printed Parts
-<!-- - [2x Rail Mounts](https://thangs.com/designer/jens4173/3d-model/rail-mount.stl-785169) -->
-<!-- - [1x Drivetrain Mount](https://external.ink?to=/https://thangs.com/designer/jens4173/3d-model/drivetrain-mount.stl-785170) -->
 - <a href="https://thangs.com/designer/jens4173/3d-model/rail-mount.stl-785169" target="_blank">2x Rail Mounts</a>
 - <a href="https://thangs.com/designer/jens4173/3d-model/rail-mount.stl-785169" target="_blank">1x Drivetrain Mount</a>
-- [1x Jetson Orin Mount]()
-- [1x Cheap FOCer Mount]()
-- [1x Battery Mount]()
+- <a href="https://thangs.com/designer/jens4173/3d-model/Orin%20Mount-829445" target="_blank">1x Jetson Orin Mount</a>
+- <a href="https://thangs.com/designer/jens4173/3d-model/Cheap%20FOCer%20mount-829448" target="_blank">2x Cheap FOCer Mount</a>
+- <a href="https://thangs.com/designer/jens4173/3d-model/Battery%20Bracket-829446" target="_blank">2x Battery Bracket</a>
+- <a href="https://thangs.com/designer/jens4173/3d-model/Zed%20Mini%20Mounting%20Case-829447" target="_blank">1x Zed Mini Case</a>
 
 ### Optional
 [Body panels]
